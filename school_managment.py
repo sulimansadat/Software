@@ -103,7 +103,7 @@ def Profile():
     background = Frame(width=1280, height=680, background='#FFF').place(x=0, y=40)
 
     me = Label(background,background='white',text="School Management System",font="bold 40").place(x=320,y=300)
-    me = Label(background, background='#FFF', text="The program has been written with Python Programming Language by Suleman Sadat From Afghanistan.✅",font="bold 15").place(x=190, y=550)
+    me = Label(background, background='#FFF', text="The program has been written with Python Programming Language by Suleman Sadat✅",font="bold 15").place(x=190, y=550)
 
 
 def view1():
@@ -132,7 +132,7 @@ def about1():
     background = Frame(width=1280, height=680, background='#FFF').place(x=0, y=40)
 
     me = Label(background,background='white',text="SULEMAN SADAT\nWeb Developer\nGraphic Designer\nSoftware Engineer\n\nCONTACT",font="bold 30").place(x=450,y=220)
-    me = Label(background, background='white', text="E-mail: slemansadat779@gmail.com\nPhone: +93787721209",font="bold 12").place(x=490, y=520)
+    me = Label(background, background='white', text="E-mail: s********@gmail.com\nPhone: +************",font="bold 12").place(x=490, y=520)
 
 
     close1 = Button(header, text="Exit", font="bold 15", background="#00AAFF", foreground="#FFF", command=back)
